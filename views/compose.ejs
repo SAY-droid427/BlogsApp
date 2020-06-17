@@ -1,0 +1,20 @@
+<%- include("header") -%>
+<div class="jumbotron" id="jumbo">
+  <h1 id="header1">Compose</h1>
+  <h4 id="header"><%=composeTitle%></h4>
+</div>
+<div class="container-fluid">
+    <form action="/compose" method="post"class="Form" >
+        <label><h3>Title</h3></label>
+        <br>
+        <input type="text" name="postTitle" class="form-control" autocomplete="off">
+        <br>
+        <label><h3>Post</h3></label>
+        <br>
+        <textarea name="postBody" cols="40" rows="5" class="form-control"></textarea>
+        <br>
+        <button type="submit" class="btn  btn-warning btn-lg" name="button">Publish</button>
+    </form>
+  </div>
+
+<%- include("footer") -%>

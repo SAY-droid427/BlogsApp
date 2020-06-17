@@ -1,0 +1,28 @@
+#header{
+    padding-left: 90px;
+    color:white;
+}
+#header1{
+    padding: 50px 90px;
+    color:white;
+}
+.Form{
+    margin:50px 100px;
+}
+.posts{
+    padding:200px 100px;
+}
+.footer{
+    background-color: #314455;
+
+}
+#jumbo{
+    background-color:#9E5A63;  
+    padding-top:150px;  
+}
+.navbar-custom{
+    background-color: #644E5B;    
+}    
+#headers{
+    padding:50px 100px;
+}
